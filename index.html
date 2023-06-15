@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Unreal Thread</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="heading">Get Your Customized Tshirt here</h1>
+
+    <div id="container">
+
+        <div id="ai-design" class="design">
+            <h2>Let AI generate your design</h2>
+
+            <form id="imageForm">
+                <input type="text" id="promptInput" placeholder="Enter a prompt">
+                <br>
+                <br>
+                <button type="submit">Generate Image</button>
+            </form>
+
+        </div>
+
+        <div id="file-design" class="design">
+            <h2>Upload your design here</h2>
+            <input type="file" id="upload-input">
+            <label for="upload-input" id="upload-button">Upload Image</label>
+
+        </div>
+
+        <div id="mockup" class="design">
+            <h2 class="heading">Preview your design</h2>
+            <img id="tshirt" src="tshirt.png" alt="mockup design">
+            <img id="design-preview" class="design-overlay">
+        </div>
+
+    </div>
+    <footer> 
+        <!-- <p>&copy; 2023 Unreal Thread. All rights reserved.</p> -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

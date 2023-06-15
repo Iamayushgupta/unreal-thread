@@ -1,0 +1,76 @@
+.heading {
+    text-align: center;
+}
+
+#ai-design {
+    width: 50%;
+    height: 50%;
+    /* background-color: #0FF700; */
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+#file-design {
+    width: 50%;
+    height: 50%;
+    /* background-color: #00FF00; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.design {
+    text-align: center;
+}
+
+#mockup {
+    position: absolute;
+    top: 16%;
+    left: 60%;
+    display: inline-block;
+}
+
+#tshirt {
+    height: 500px;
+    width: 500px;
+}
+
+.design-overlay {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#upload-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-button:hover {
+    background-color: #45a049;
+}
+
+#upload-input {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
